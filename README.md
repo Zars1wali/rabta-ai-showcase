@@ -1,13 +1,32 @@
 # 🌐 Rabta AI — Multimodal WhatsApp Native Agentic AI
 
-[![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/Framework-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
-[![LangGraph](https://img.shields.io/badge/Orchestration-LangGraph-FF6F00.svg)](https://langchain-ai.github.io/langgraph/)
-[![Google Gemini](https://img.shields.io/badge/LLM-Gemini%203.5%20Flash--Lite-4285F4.svg)](https://ai.google.dev/)
-[![Gemini Vision](https://img.shields.io/badge/Computer%20Vision-Gemini%20Multimodal%20Vision-34A853.svg)](https://ai.google.dev/)
-[![Deepgram](https://img.shields.io/badge/Voice%20STT-Deepgram%20Nova--3-13EF93.svg)](https://deepgram.com/)
-[![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL%20%2B%20Vector-336791.svg)](https://www.postgresql.org/)
-[![Meta WhatsApp](https://img.shields.io/badge/Messaging-Meta%20WhatsApp%20Cloud%20Platform-25D366.svg)](https://developers.facebook.com/docs/whatsapp/)
+<div align="center">
+
+[![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-%23009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![LangGraph](https://img.shields.io/badge/langgraph-%231C3C3C.svg?style=for-the-badge&logo=langgraph&logoColor=white)](https://langchain-ai.github.io/langgraph/)
+[![LangChain](https://img.shields.io/badge/langchain-%231C3C3C.svg?style=for-the-badge&logo=langchain&logoColor=white)](https://www.langchain.com/)
+[![Google Gemini](https://img.shields.io/badge/google%20gemini-%238E75B2.svg?style=for-the-badge&logo=google%20gemini&logoColor=white)](https://ai.google.dev/)
+[![Pydantic](https://img.shields.io/badge/pydantic-%23E92063.svg?style=for-the-badge&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
+
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2325D366.svg?style=for-the-badge&logo=whatsapp&logoColor=white)](https://www.whatsapp.com/)
+[![Meta](https://img.shields.io/badge/Meta-%230467DF.svg?style=for-the-badge&logo=Meta&logoColor=white)](https://developers.facebook.com/docs/whatsapp/)
+[![Deepgram](https://img.shields.io/badge/Deepgram-13EF93?style=for-the-badge&logo=deepgram&logoColor=black)](https://deepgram.com/)
+[![NodeJS](https://img.shields.io/badge/node.js-%236DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+[![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
+[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-%23E95420.svg?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
+[![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+
+[![Architecture](https://img.shields.io/badge/Architecture-Dual--Agent%20LangGraph-1C3C3C?style=for-the-badge)](https://langchain-ai.github.io/langgraph/)
+[![Model](https://img.shields.io/badge/Model-Gemini%203.5%20Flash--Lite-8E75B2?style=for-the-badge)](https://ai.google.dev/)
+[![Status](https://img.shields.io/badge/Status-Production%20Active-brightgreen?style=for-the-badge)](https://github.com/Zars1wali/rabta-ai-showcase)
+
+</div>
 
 > **Case Study & Technical Showcase:** This repository serves as the public architectural portfolio, technical specification, and system showcase for **Rabta AI**. The core production backend engine, proprietary prompts, and enterprise databases remain confidential and proprietary.
 
@@ -165,18 +184,20 @@ flowchart TD
 
 ## 🛠️ Complete Technology Stack
 
-| Layer | Component | Description |
-| :--- | :--- | :--- |
-| **Agentic Framework** | **LangGraph** (`0.2.x`) | Stateful multi-turn conversation graph, routing & checkpoints |
-| **Cognitive Engine** | **Google Gemini 3.5 Flash-Lite** | Core reasoning, ReAct function calling & sales intelligence |
-| **Vision Verification** | **Gemini Vision** | Physical barcode, packaging label & SKU image verification |
-| **Voice STT Engine** | **Deepgram Nova-3** | Real-time audio streaming speech-to-text (Urdu/English) |
-| **Vector Embeddings** | **Gemini Embedding 2** (`1536-dim`) | Multimodal and text semantic embeddings for catalog RAG |
-| **Backend Framework** | **FastAPI** (Python 3.11+, AsyncIO) | High-throughput asynchronous backend server |
-| **Database & ORM** | **PostgreSQL** + **SQLAlchemy Asyncpg** | Multi-tenant persistent store, audit history, session state |
-| **Messaging Channel** | **Meta WhatsApp Cloud Platform** | Official WhatsApp Business API & bidirectional gateway |
-| **Reverse Proxy & SSL**| **Caddy** | Automated TLS/SSL termination, WebSocket & HTTP reverse proxy |
-| **Containerization** | **Docker** & **Docker Compose** | Production container packaging and microservices |
+| Layer | Component | Badge | Description |
+| :--- | :--- | :--- | :--- |
+| **Agentic Framework** | **LangGraph** (`0.2.x`) | [![LangGraph](https://img.shields.io/badge/langgraph-%231C3C3C.svg?style=flat-square&logo=langgraph&logoColor=white)](https://langchain-ai.github.io/langgraph/) | Stateful multi-turn conversation graph, routing & checkpoints |
+| **Cognitive Engine** | **Google Gemini 3.5 Flash-Lite** | [![Gemini](https://img.shields.io/badge/Gemini-%238E75B2.svg?style=flat-square&logo=google%20gemini&logoColor=white)](https://ai.google.dev/) | Core reasoning, ReAct function calling & sales intelligence |
+| **Vision Verification** | **Gemini Vision Engine** | [![Vision](https://img.shields.io/badge/Vision-%2334A853.svg?style=flat-square&logo=google%20gemini&logoColor=white)](https://ai.google.dev/) | Physical barcode, packaging label & SKU image verification |
+| **Voice STT Engine** | **Deepgram Nova-3** | [![Deepgram](https://img.shields.io/badge/Deepgram-13EF93?style=flat-square&logo=deepgram&logoColor=black)](https://deepgram.com/) | Real-time audio streaming speech-to-text (Urdu/English) |
+| **Vector Embeddings** | **Gemini Embedding 2** (`1536-dim`) | [![Embeddings](https://img.shields.io/badge/Embeddings-%238E75B2.svg?style=flat-square&logo=google%20gemini&logoColor=white)](https://ai.google.dev/) | Multimodal and text semantic embeddings for catalog RAG |
+| **Backend Framework** | **FastAPI** (Python 3.11+, AsyncIO) | [![FastAPI](https://img.shields.io/badge/FastAPI-%23009688.svg?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/) | High-throughput asynchronous backend server |
+| **Data Validation** | **Pydantic** (`v2.x`) | [![Pydantic](https://img.shields.io/badge/Pydantic-%23E92063.svg?style=flat-square&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/) | Strict runtime data contracts, schema coercion & JSON formatting |
+| **Database & ORM** | **PostgreSQL** + **SQLAlchemy Asyncpg** | [![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/) | Multi-tenant persistent store, audit history, session state |
+| **In-Memory Cache** | **Redis** | [![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=flat-square&logo=redis&logoColor=white)](https://redis.io/) | High-speed cache for session locks & transient presence states |
+| **Messaging Channel** | **Meta WhatsApp Cloud Platform** | [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2325D366.svg?style=flat-square&logo=whatsapp&logoColor=white)](https://developers.facebook.com/docs/whatsapp/) | Official WhatsApp Business API & bidirectional gateway |
+| **Reverse Proxy & SSL**| **Caddy** | [![Caddy](https://img.shields.io/badge/Caddy-%231F88C0.svg?style=flat-square&logo=caddy&logoColor=white)](https://caddyserver.com/) | Automated TLS/SSL termination, WebSocket & HTTP reverse proxy |
+| **Containerization** | **Docker** & **Docker Compose** | [![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) | Production container packaging and microservices |
 
 ---
 
