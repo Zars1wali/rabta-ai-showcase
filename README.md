@@ -1,216 +1,254 @@
-# 🌐 Rabta AI — Multimodal WhatsApp Native Agentic AI
+# 🌐 Rabta AI (رابطہ) — Autonomous Multimodal WhatsApp Retail & Copilot Engine
 
 <div align="center">
 
-[![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-%23009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![LangGraph](https://img.shields.io/badge/langgraph-%231C3C3C.svg?style=for-the-badge&logo=langgraph&logoColor=white)](https://langchain-ai.github.io/langgraph/)
-[![LangChain](https://img.shields.io/badge/langchain-%231C3C3C.svg?style=for-the-badge&logo=langchain&logoColor=white)](https://www.langchain.com/)
-[![Google Gemini](https://img.shields.io/badge/google%20gemini-%238E75B2.svg?style=for-the-badge&logo=google%20gemini&logoColor=white)](https://ai.google.dev/)
-[![Pydantic](https://img.shields.io/badge/pydantic-%23E92063.svg?style=for-the-badge&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
+<img src="assets/rabta_banner_full.jpg" alt="Rabta AI Banner" width="100%" />
 
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2325D366.svg?style=for-the-badge&logo=whatsapp&logoColor=white)](https://www.whatsapp.com/)
-[![Meta](https://img.shields.io/badge/Meta-%230467DF.svg?style=for-the-badge&logo=Meta&logoColor=white)](https://developers.facebook.com/docs/whatsapp/)
-[![Deepgram](https://img.shields.io/badge/Deepgram-13EF93?style=for-the-badge&logo=deepgram&logoColor=black)](https://deepgram.com/)
-[![NodeJS](https://img.shields.io/badge/node.js-%236DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+<br />
 
-[![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
-[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu-%23E95420.svg?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
-[![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+[![Google Antigravity](https://img.shields.io/badge/Built%20With-Google%20Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![Gemini 4 Argon](https://img.shields.io/badge/Architected%20With-Gemini%204%20(Argon)%20%26%20Gemini%203%20(Hydrogen)-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)](https://ai.google.dev/)
+[![Google ADK](https://img.shields.io/badge/Agent%20Stack-Google%20ADK%20%2B%20LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)](https://langchain-ai.github.io/langgraph/)
 
-[![Architecture](https://img.shields.io/badge/Architecture-Dual--Agent%20LangGraph-1C3C3C?style=for-the-badge)](https://langchain-ai.github.io/langgraph/)
-[![Model](https://img.shields.io/badge/Model-Gemini%203.5%20Flash--Lite-8E75B2?style=for-the-badge)](https://ai.google.dev/)
-[![Status](https://img.shields.io/badge/Status-Production%20Active-brightgreen?style=for-the-badge)](https://github.com/Zars1wali/rabta-ai-showcase)
+[![Runtime LLM](https://img.shields.io/badge/Runtime%20LLM-Gemini%203.5%20Flash--Lite-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)](https://ai.google.dev/)
+[![Runtime TTS](https://img.shields.io/badge/Voice%20Synthesis-Gemini%203.8%20Flash--Lite%20TTS-34A853?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/)
+[![Context Caching](https://img.shields.io/badge/TPU%20Cache-Google%20CachedContent%20(-75%25%20Cost)-FBBC04?style=for-the-badge&logo=googlecloud&logoColor=black)](https://ai.google.dev/gemini-api/docs/caching)
+
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Python 3.12](https://img.shields.io/badge/Python%203.12-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
+[![PostgreSQL pgvector](https://img.shields.io/badge/PostgreSQL%20%2B%20pgvector-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Node.js Baileys](https://img.shields.io/badge/WhatsApp%20Gateway-Node.js%20%2B%20Baileys-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://www.whatsapp.com/)
+[![Docker](https://img.shields.io/badge/Docker%20Compose-0db7ed?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![GCP Compute Engine](https://img.shields.io/badge/Cloud-GCP%20Compute%20Engine-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/compute)
+
+[![Commercial Pilot](https://img.shields.io/badge/Live%20Commercial%20Pilot-Haider%20Arms%20(246%2B%20SKUs)-brightgreen?style=for-the-badge)](https://github.com/Zars1wali/rabta-ai-showcase)
+[![Eval Flywheel](https://img.shields.io/badge/LLM--as--a--Judge%20Evals-124%2B%20Scenarios%20Passing-success?style=for-the-badge)](backend/eval/)
 
 </div>
 
-> **Case Study & Technical Showcase:** This repository serves as the public architectural portfolio, technical specification, and system showcase for **Rabta AI**. The core production backend engine, proprietary prompts, and enterprise databases remain confidential and proprietary.
+> **Public Architectural Showcase & Case Study:** This repository serves as the public engineering portfolio, deep architectural specification ([`ARCHITECTURE.md`](ARCHITECTURE.md)), and live commercial case study for **Rabta AI**. The core production backend engine, proprietary prompts, and merchant databases reside in the private production repository.
 
 ---
 
-## Executive Summary
+## 📖 Executive Summary
 
-**Rabta AI** (رابطہ — meaning *"Connection"* in Urdu) is an enterprise-grade, multimodal WhatsApp-native autonomous dual-agent conversational platform engineered specifically for **local Pakistani merchants, retailers, distributors, and commercial businesses**. 
+**Rabta AI** (*رابطہ* — meaning *"Connection"* in Urdu) is a production-deployed, multimodal, WhatsApp-native autonomous dual-agent retail and executive copilot platform engineered for **emerging-market commerce**.
 
-In Pakistan's high-velocity commerce landscape, over 90% of retail transactions and customer inquiries originate directly on WhatsApp via text, voice notes, and product photos. Rabta AI autonomously bridges this gap by acting as a 24/7 digital sales workforce: handling real-time catalog discovery, checking live warehouse stock, verifying products via computer vision, processing advance payments (Bank Transfer, JazzCash, EasyPaisa), and providing a dedicated copilot for business owners on WhatsApp.
+In Pakistan and across South Asia & MENA, **over 90% of retail discovery, negotiation, and order closing happens inside WhatsApp** via Roman Urdu text, regional dialect voice notes (Urdu, Pashto, Punjabi), product photos, and PDF wholesale sheets. Traditional web-storefronts and rigid keyword bots fail in this environment.
+
+Rabta AI operates directly inside the merchant's live WhatsApp Business number as two coordinated cognitive agents:
+1. **Customer Sales ReAct Agent (`customer_react_node`)**: Acts as a seasoned, respectful Pakistani dealership salesperson — searching live inventory via Multimodal RAG, sending studio product photos & videos, answering technical specifications, negotiating within owner-approved margins, verifying customer photos via Gemini Vision, and closing advance-payment orders.
+2. **Owner Intelligence Copilot (`owner_react_node`)**: Acts as the store owner's private WhatsApp executive assistant — ingesting multi-page supplier PDF price lists via vision, executing bulk catalog price updates with immutable audit logs, managing stock availability, and relaying Human-in-the-Loop (HITL) discount approvals back to waiting customers.
+
+> 🏆 **First Commercial Deployment — Haider Arms (Peshawar, Pakistan):**  
+> Actively running in production for **Haider Arms**, managing **246+ commercial SKUs** across pistols, rifles, shotguns, and tactical optics with 24/7 autonomous customer handling and real-time owner inventory control.
 
 ---
 
-## 🏗️ System Architecture & Dataflow
+## 🔬 Built-With vs. Deployed Production Stack
+
+Rabta AI separates its **agentic development & evaluation plane** from its **ultra-low-latency production runtime plane**:
+
+| Plane | Technologies & Models | Purpose |
+| :--- | :--- | :--- |
+| **Built & Architected With** *(Development, Reasoning Design & Quality Flywheel)* | **Google Antigravity IDE**, **Gemini 4 (Argon)**, **Gemini 3 (Hydrogen)**, **Google Agent Development Kit (ADK)**, **Google Cloud SDK** | Multi-agent system architecture, prompt state-machine synthesis, adversarial red-teaming, and automated LLM-as-a-Judge evaluation grading. |
+| **Deployed Production Runtime** *(Live WhatsApp Inference & Persistence)* | **Gemini 3.5 Flash-Lite** (`gemini-2.5-flash-lite`), **Gemini 3.8 Flash-Lite TTS**, **`gemini-embedding-001` / `gemini-embedding-2`** (`768-dim` Matryoshka), **LangGraph** (`StateGraph` + `AsyncPostgresSaver`), **Google TPU Context Caching** (`CachedContent`) | Sub-1.5s live customer ReAct tool calling, native multilingual audio STT, progressive voice-note synthesis, hybrid vector + lexical search, and PostgreSQL state checkpointing. |
+
+---
+
+## 🏛️ System Architecture Poster & Dataflow
+
+<div align="center">
+<img src="assets/rabta_architecture_poster.jpg" alt="Rabta AI System Architecture" width="100%" />
+</div>
+
+### End-to-End LangGraph & Multimodal Pipeline
 
 ```mermaid
 flowchart TD
-    subgraph ClientChannels ["Omnichannel Ingestion & Messaging"]
-        WA["Meta WhatsApp Business Platform / Web Client"]
-        VN["WhatsApp Voice Notes (Audio Stream)"]
+    subgraph OmnichannelInput ["1. WhatsApp Omnichannel Ingestion"]
+        WA["Customer / Owner WhatsApp Message\n(Text, Voice Note .ogg, Product Photo, Supplier PDF)"]
+        GW["Node.js WhatsApp Gateway (Baileys)\n15s Sliding Debounce + Composing/Recording Presence"]
     end
 
-    subgraph IngestionGateway ["Gateway & Real-Time Presence Layer"]
-        GW["WhatsApp Gateway Bridge"]
-        DB["15s Sliding Debounce & Presence Detector\n(composing / recording state tracking)"]
-        STT["Deepgram Nova-3 API\n(Real-Time Urdu & English STT)"]
+    subgraph MultimodalPerception ["2. Native Multimodal Perception Layer"]
+        STT["Multilingual Native Audio Engine\n(Urdu, Roman Urdu, Pashto, Punjabi, English)"]
+        VIS["Gemini Vision SKU & Document Inspector\n(Engraving/Stamp OCR & Multi-Page PDF Price List Parser)"]
+        CACHE["Google TPU Context Cache (CachedContent)\n246+ SKU Catalog Pinned in TPU HBM (-75% Token Cost, -70% TTFT)"]
     end
 
-    subgraph LangGraphCore ["Rabta AI Orchestration Core (LangGraph)"]
-        GK["Node 1: Entry Gatekeeper & Route Dispatcher\n(Context-Aware Role Resolution)"]
-        subgraph DualAgentCores ["Specialized Autonomous Cores"]
-            CustomerAgent["Node 2A: Customer Sales ReAct Agent\n(Gemini 3.5 Flash-Lite @ temp=0.5)"]
-            OwnerAgent["Node 2B: Owner Intelligence Copilot\n(Gemini 3.5 Flash-Lite @ temp=0.2)"]
+    subgraph LangGraphEngine ["3. 3-Node Guardrailed ReAct LangGraph (AsyncPostgresSaver)"]
+        N1["Node 1: Gatekeeper & Role Router (route_message)\nTenant Resolution, Boss Detection & State Hydration"]
+        
+        subgraph CognitiveCores ["Single-Context ReAct Cognitive Agents"]
+            N2A["Node 2A: Customer Sales ReAct Agent\n(Gemini 3.5 Flash-Lite + Dynamic Margin & Funnel Tools)"]
+            N2B["Node 2B: Owner Intelligence Copilot\n(Gemini 3.5 Flash-Lite + Bulk Price & Stock Mutation Tools)"]
         end
-        OG["Node 3: Unified Output Guardrail\n(Zero-Asterisk Cleaner, URL Rescue & IP Masking)"]
+
+        N3["Node 3: Unified Output Guardrail (output_guardrail)\nZero-Asterisk Sanitizer, URL Rescue, IP Masking, 4-Photo Cap & Transient Blob Pruning"]
     end
 
-    subgraph AgenticTools ["Native ReAct Tool Registry & RAG Knowledge Base"]
-        SearchTool["search_catalog\n(Hybrid Vector + Keyword Filter)"]
-        PhotoTool["get_product_photos\n(Verified Media Asset Engine)"]
-        PaymentTool["get_payment_bank_details"]
-        DeliveryTool["check_delivery_policy & escalate_delivery_quote"]
-        MarginTool["manage_payment_details & owner_preferences"]
-        VisionEngine["Gemini Vision Engine\n(Physical Product & SKU Verification)"]
+    subgraph ToolRegistry ["4. Deterministic Tool & MM-RAG Registry"]
+        T1["search_catalog\n(768-dim Text + Image Embeddings + Lexical SKU Boost)"]
+        T2["get_product_photos & Showcase Videos\n(Verified Multi-Angle Studio Media)"]
+        T3["Negotiation & Escalation Engine\n(escalate_to_owner, check_delivery_policy, get_payment_bank_details)"]
+        T4["Owner Superpowers\n(bulk_update_catalog_prices, update_item_price, PriceChangeLog Audit)"]
     end
 
-    subgraph PersistenceLayer ["Enterprise Persistence Layer"]
-        PG[("PostgreSQL\n(Neon / Local Container)")]
-        Vectors[("1536-dim Gemini Embeddings\n(postgres_jsonb / pgvector)")]
-        AuditLogs[("PriceChangeLog & Conversation Checkpoints")]
+    subgraph DeliveryLayer ["5. Progressive WhatsApp Delivery"]
+        TTS["Gemini 3.8 Flash-Lite TTS + Edge Neural Fallback\n(Salman & Uzma Roman Urdu Phonetic Voice Notes)"]
+        OUT["Chunked Natural Text + Studio Photos + Audio Stream"]
     end
 
     WA --> GW
-    VN --> GW
-    GW --> DB
-    DB --> STT
-    STT --> GK
-    DB --> GK
+    GW --> STT
+    GW --> VIS
+    STT --> N1
+    VIS --> N1
+    CACHE -.->|Pre-warmed Prefix| N2A
 
-    GK -->|Customer Flow| CustomerAgent
-    GK -->|Owner / Boss Flow| OwnerAgent
+    N1 -->|is_boss == False| N2A
+    N1 -->|is_boss == True| N2B
 
-    CustomerAgent <--> SearchTool
-    CustomerAgent <--> PhotoTool
-    CustomerAgent <--> PaymentTool
-    CustomerAgent <--> DeliveryTool
+    N2A <--> T1
+    N2A <--> T2
+    N2A <--> T3
+    N2B <--> T1
+    N2B <--> T4
 
-    OwnerAgent <--> SearchTool
-    OwnerAgent <--> MarginTool
-    OwnerAgent <--> VisionEngine
-
-    SearchTool <--> PG
-    SearchTool <--> Vectors
-    MarginTool <--> AuditLogs
-
-    CustomerAgent --> OG
-    OwnerAgent --> OG
-    OG --> GW
-    GW --> WA
+    N2A --> N3
+    N2B --> N3
+    N3 --> TTS
+    N3 --> OUT
+    TTS --> OUT
+    OUT --> WA
 ```
 
 ---
 
-## 🧠 Core Engineering Pillars
+## 🧠 Core Engineering Innovations
 
-### 1. LangGraph State Machine & Orchestration
-- **Cyclic StateGraph Engine:** Engineered on **LangGraph** (`StateGraph`) with persistent checkpointing. Replaces fragile chain-of-custody pipelines with a deterministic 3-node graph:
-  - **Node 1 (Gatekeeper):** Performs sender verification, role classification (Customer vs. Store Owner), and session state restoration.
-  - **Node 2A & 2B (Dual Autonomous ReAct Agents):** Parallel, decoupled cognitive agents with isolated tools, memory states, and personas.
-  - **Node 3 (Output Guardrail):** Enforces quality, formatting discipline, anti-flooding rules, and privacy protections before delivery.
-- **Sliding 15-Second Debounce Window:** Integrates an asynchronous sliding timer with real-time WhatsApp presence updates (`composing` / `recording`). Eliminates fragmented, erratic responses by buffering multi-message customer thoughts into a unified reasoning context.
+### 1. Research-Backed 3-Node Guardrailed ReAct LangGraph
+Following production agent engineering findings from **Cognition AI** (*"Don't Build Multi-Agents"*), **Anthropic** (*"Building Effective Agents"*), and **OpenAI**, Rabta AI deliberately avoids fragile 8-node micro-classification graphs where context is lost across handoffs.
+- **Node 1 (`route_message`)**: Deterministic gatekeeper that resolves tenant identity, checks `is_boss`, and routes directly to the specialized ReAct core.
+- **Node 2A / 2B (`customer_react_node` / `owner_react_node`)**: Full-context **ReAct (Reasoning + Acting)** agents that see the complete conversation history, multimodal attachments, and live database tools in one unified cognitive loop.
+- **Node 3 (`output_guardrail`)**: Deterministic post-processing barrier that enforces **Zero-Asterisk WhatsApp formatting**, rescues raw media URLs into native attachments, masks internal server IPs, caps photos at 4 per turn, and **prunes transient heavy blobs (`catalog_context`, `image_base64`, `document_base64`)** before `AsyncPostgresSaver` writes checkpoints to PostgreSQL.
 
-### 2. Native ReAct Agent Architecture (Reasoning + Acting)
-- Powered by **Google Gemini 3.5 Flash-Lite** utilizing native ReAct tool/function calling loops:
-  $$\text{Thought} \longrightarrow \text{Action (Tool Call)} \longrightarrow \text{Observation (SQL/API)} \longrightarrow \text{Final Response}$$
-- Enables autonomous multi-step commercial reasoning: an inquiry like *"Is brand k konse models available hain aur unki pictures bhejo"* autonomously executes `search_catalog(query="Brand")`, evaluates available inventory, calls `get_product_photos(product_names=[...])`, and crafts a tailored response in a single execution turn.
+### 2. Google TPU Context Caching (`CachedContent`)
+Retailers with ratusan/hundreds of SKUs normally suffer from massive prompt token overhead on every customer message.
+- Implemented in [`backend/app/services/cache_manager.py`](backend/app/services/cache_manager.py), Rabta AI compiles the tenant's entire 246+ SKU catalog and system instructions into a **Google Gemini `CachedContent` object** pinned in Google TPU High-Bandwidth Memory (HBM) with a 2-hour rolling TTL.
+- Automatically invalidates and rebuilds within milliseconds whenever the owner updates a price or toggles stock.
+- **Impact**: **75% reduction in input token costs** and **70%+ reduction in Time-To-First-Token (TTFT)**.
 
-### 3. Deterministic Tool & Function Calling Registry
-- Uses strict **JSON Schema declarations** via the modern `google-genai` SDK:
-  - `search_catalog`: Multi-attribute inventory discovery across category, specifications, manufacturer, brand, and budget limits.
-  - `get_product_photos`: Fetches verified studio assets by product SKU or batch model queries.
-  - `check_delivery_policy`: City-specific logistics validation and terms enforcement.
-  - `escalate_delivery_quote`: Triggers shipping calculation once customer Name, City, and Address are collected.
-  - `get_payment_bank_details`: Dispatches verified merchant accounts (Bank Transfer, JazzCash, EasyPaisa).
-  - `recommend_alternative`: Discovers budget-friendly or in-stock alternatives when requested items are unavailable.
+### 3. Multimodal RAG (MM-RAG) & Cross-Modal Visual Search
+- **Dual-Vector Indexing**: Every SKU in PostgreSQL stores both a **768-dimensional semantic text embedding** (`Product.embedding`) and a **768-dimensional visual embedding** (`Product.image_embedding`) generated via `gemini-embedding-001` / `gemini-embedding-2` with Matryoshka dimensionality reduction and L2 normalization.
+- **Visual Customer Queries**: When a customer snaps a photo of a product on WhatsApp and asks *"Yeh available hai? Rate kya hai?"*, Gemini Vision inspects physical markings, barrel/slide engravings, and packaging labels while cross-referencing the catalog vector space to return exact in-stock matches and verified pricing.
 
-### 4. Hybrid Retrieval-Augmented Generation (RAG)
-- **1536-Dimensional Vector Embeddings:** Generated via `gemini-embedding-002` (Matryoshka-truncated from 3072 dims for maximum vector search performance).
-- **Hybrid Retrieval Strategy:** Combines high-speed SQL token matching with cosine similarity vector scoring in PostgreSQL (`postgres_jsonb` / `pgvector`). Customers can describe products conceptually (e.g., *"lightweight portable summer fabric"* or *"compact wireless fast charger"*) and receive precise catalog matches even when exact product names are omitted.
+### 4. Multilingual Native Audio STT & Progressive TTS Voice Notes
+- **Dialect-Aware Speech-to-Text**: Processes WhatsApp `.ogg` (Opus) voice notes directly via Gemini's native multimodal audio understanding (with Deepgram Nova-3 support), accurately transcribing code-switched **Urdu, Roman Urdu, Pashto, Punjabi, and English** firearm and retail terminology.
+- **Progressive Voice Replies**: Synthesizes natural Pakistani dealer voice notes (`Salman` male & `Uzma` female personas) via **Gemini 3.8 Flash-Lite TTS** with a dedicated Roman Urdu phonetic pronunciation dictionary (`voice_service.py`), broadcasting live `"recording audio..."` presence before delivering crystal-clear `.ogg` voice notes.
 
-### 5. Multimodal Agentic AI & Gemini Vision
-- **Physical SKU & Label Verification:** Retail products and packaged goods frequently share nearly identical visual appearances across model years or packaging variants. Gemini Vision cross-references customer photos and catalog imagery against physical barcodes, model numbers, packaging stamps, and specifications to eliminate visual confusion.
-- **Multimodal Visual Search:** Customers can snap and send a photo of any item on WhatsApp to identify the product and immediately retrieve in-stock availability and confirmed pricing.
+### 5. Autonomous Supplier PDF Price-Sheet Ingestion
+- Store owners simply forward a multi-page wholesale supplier PDF or photo price sheet to their WhatsApp copilot with a caption like *"Update these rates and add 15k margin"*.
+- Rabta AI parses the entire document via Gemini Vision, fuzzy-matches model variants against the tenant's PostgreSQL catalog, updates confirmed prices in bulk (`bulk_update_catalog_prices`), logs every previous and new price in `PriceChangeLog`, and refreshes the TPU Context Cache automatically.
 
-### 6. Voice Processing with Deepgram Nova-3
-- **Bilingual Speech-to-Text Pipeline:** Deepgram Nova-3 API processes streaming audio bytes (OGG Opus) sent via WhatsApp voice notes.
-- **Code-Switching Comprehension:** Natively handles fluid transitions between Urdu, English, and Roman Urdu speech, instantly transcribing spoken audio into structured text for downstream agentic reasoning.
-
-### 7. Human-in-the-Loop (HITL) & Escalation Protocol
-- **Intelligent Delegation Gating:** Routine catalog lookups, specs, and store hours/location queries are resolved 100% autonomously.
-- **Escalation Triggers:** Automatically routes to the merchant's private WhatsApp copilot only when human judgment is mandatory:
-  - Explicit customer price negotiations (*"gunjaish"* / discount requests).
-  - Custom shipping calculations once Name, City, and Street Address are verified.
-  - High-value B2B dealer inquiries, wholesale rates, and bulk orders.
-- **Bilateral Decision Relay:** The business owner replies naturally to their copilot (*"dedo 10% discount"*), and Rabta AI automatically translates and relays the decision back to the customer.
-
-### 8. Multi-Tier Guardrails & Safety Architecture
-- **The Cardinal Grounding Law (Zero Hallucination):** The LLM possesses zero product specifications or pricing in its internal memory weights. All data quoted to customers must originate from verified database tool output.
-- **Zero-Asterisk Output Formatting:** Guarantees that customer-bound messages are devoid of raw markdown asterisks (`*` or `**`), outputting clean, natural headings and lists.
-- **IP Masking & URL Rescue:** Intercepts internal server addresses and converts them to public HTTPS CDN endpoints.
-- **Anti-Flooding Controls:** Enforces a strict cap (max 4 images) per turn to prevent mobile WhatsApp session clutter.
-
-### 9. Advanced Prompt Engineering Discipline
-- **Hybrid Prompting Architecture:**
-  - **Zero-Shot Task Constraints:** Strict negative prompting rules and JSON schema boundaries for NLU intent classification.
-  - **Few-Shot Exemplars:** Contextual demonstrations of conversational Roman Urdu retail tone, sales closing questions, and good vs. bad message pairs.
-- **Dynamic In-Context Injection (Part A / Part B):**
-  - *Part A (Static System Prompt):* Permanent merchant profile, store policies, and behavioral instructions.
-  - *Part B (Live Runtime Context):* Injects confirmed daily prices, in-stock SKUs, owner margin directives, and customer interaction history on every single turn.
+### 6. LLM-as-a-Judge Quality Flywheel (124+ Scenarios)
+- Located in [`backend/eval/`](backend/eval/), Rabta AI includes an automated evaluation harness (`evaluate_rabta.py`) with **124+ realistic multi-turn adversarial and commercial scenarios**.
+- Evaluates **Cardinal Grounding (Zero Hallucination)**, **Tool Call Precision**, **Bilingual Tone**, and **Guardrail Safety** prior to production deployment.
 
 ---
 
-## 🤖 The Dual Agents Explained
+## 📱 Live WhatsApp Production Previews
 
-| Dimension | Customer Sales Agent (`customer_react_node`) | Owner Copilot Agent (`owner_react_node`) |
-| :--- | :--- | :--- |
-| **Persona** | Warm, respectful, commercially aggressive salesperson | Discrete, exceptionally capable executive assistant |
-| **LLM Configuration** | **Gemini 3.5 Flash-Lite** (`temp=0.5`) | **Gemini 3.5 Flash-Lite** (`temp=0.2`) |
-| **Primary Goal** | Drive sales, answer specs, book orders, collect advance | Execute owner commands, adjust inventory, confirm rates |
-| **Input Style** | Conversational Roman Urdu & English | Casual owner shorthand (*"490k"*, *"sold out"*, *"push this"*) |
-| **Special Policies** | Advance payment verification & delivery gating | Daily automated price confirmation workflows |
-| **Output Style** | Crisp 1–3 short sentences, clean text, zero asterisks | Instant confirmation, short bullet points, actionable alerts |
-
----
-
-## 🛠️ Complete Technology Stack
-
-| Layer | Component | Badge | Description |
-| :--- | :--- | :--- | :--- |
-| **Agentic Framework** | **LangGraph** (`0.2.x`) | [![LangGraph](https://img.shields.io/badge/langgraph-%231C3C3C.svg?style=flat-square&logo=langgraph&logoColor=white)](https://langchain-ai.github.io/langgraph/) | Stateful multi-turn conversation graph, routing & checkpoints |
-| **Cognitive Engine** | **Google Gemini 3.5 Flash-Lite** | [![Gemini](https://img.shields.io/badge/Gemini-%238E75B2.svg?style=flat-square&logo=google%20gemini&logoColor=white)](https://ai.google.dev/) | Core reasoning, ReAct function calling & sales intelligence |
-| **Vision Verification** | **Gemini Vision Engine** | [![Vision](https://img.shields.io/badge/Vision-%2334A853.svg?style=flat-square&logo=google%20gemini&logoColor=white)](https://ai.google.dev/) | Physical barcode, packaging label & SKU image verification |
-| **Voice STT Engine** | **Deepgram Nova-3** | [![Deepgram](https://img.shields.io/badge/Deepgram-13EF93?style=flat-square&logo=deepgram&logoColor=black)](https://deepgram.com/) | Real-time audio streaming speech-to-text (Urdu/English) |
-| **Vector Embeddings** | **Gemini Embedding 2** (`1536-dim`) | [![Embeddings](https://img.shields.io/badge/Embeddings-%238E75B2.svg?style=flat-square&logo=google%20gemini&logoColor=white)](https://ai.google.dev/) | Multimodal and text semantic embeddings for catalog RAG |
-| **Backend Framework** | **FastAPI** (Python 3.11+, AsyncIO) | [![FastAPI](https://img.shields.io/badge/FastAPI-%23009688.svg?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/) | High-throughput asynchronous backend server |
-| **Data Validation** | **Pydantic** (`v2.x`) | [![Pydantic](https://img.shields.io/badge/Pydantic-%23E92063.svg?style=flat-square&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/) | Strict runtime data contracts, schema coercion & JSON formatting |
-| **Database & ORM** | **PostgreSQL** + **SQLAlchemy Asyncpg** | [![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/) | Multi-tenant persistent store, audit history, session state |
-| **In-Memory Cache** | **Redis** | [![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=flat-square&logo=redis&logoColor=white)](https://redis.io/) | High-speed cache for session locks & transient presence states |
-| **Messaging Channel** | **Meta WhatsApp Cloud Platform** | [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2325D366.svg?style=flat-square&logo=whatsapp&logoColor=white)](https://developers.facebook.com/docs/whatsapp/) | Official WhatsApp Business API & bidirectional gateway |
-| **Reverse Proxy & SSL**| **Caddy** | [![Caddy](https://img.shields.io/badge/Caddy-%231F88C0.svg?style=flat-square&logo=caddy&logoColor=white)](https://caddyserver.com/) | Automated TLS/SSL termination, WebSocket & HTTP reverse proxy |
-| **Containerization** | **Docker** & **Docker Compose** | [![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) | Production container packaging and microservices |
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/whatsapp_demo_1_funnel.jpg" alt="WhatsApp Discovery & Visual Catalog Funnel" width="95%" />
+      <br />
+      <b>Autonomous Discovery, Grounded Pricing & Studio Media</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/whatsapp_demo_2_closing.jpg" alt="WhatsApp Negotiation & Order Closing" width="95%" />
+      <br />
+      <b>Margin-Aware Negotiation, HITL Escalation & Closing</b>
+    </td>
+  </tr>
+</table>
+</div>
 
 ---
 
-## 📈 Commercial Metrics & Impact
+## 📂 Repository Directory Structure
 
-- **Live Retail Catalog:** Hundreds of distinct commercial SKUs, verified product imagery, and daily dynamic price confirmations.
-- **Automated Regression Suite:** 28 end-to-end integration and behavior scenarios tested and passing with zero regressions.
-- **Latency Performance:** Sub-1.5s end-to-end ReAct tool resolution and response generation on live WhatsApp channels.
-- **Bilingual Accuracy:** 100% resolution of Roman Urdu colloquial retail expressions and phonetic variations without hallucination.
+```text
+rabta-ai/
+├── .github/workflows/           # CI/CD pipelines (Eval Gatekeeper + Safe GCP Deployment)
+├── assets/                      # Architecture posters, banners & WhatsApp demo previews
+├── backend/                     # FastAPI + LangGraph Python 3.12 Backend Engine
+│   ├── alembic/                 # Database schema migrations
+│   ├── app/
+│   │   ├── api/                 # Webhook endpoints, health checks & admin routes
+│   │   ├── brain/               # System prompts (Customer Sales v2.0 & Owner Copilot)
+│   │   ├── core/                # Pydantic Settings, logging & environment configuration
+│   │   ├── db/                  # SQLAlchemy Async ORM models & repositories
+│   │   ├── graph/               # 3-Node LangGraph (builder.py, state.py, checkpointer.py, nodes/)
+│   │   ├── models/              # Domain & API request/response schemas
+│   │   └── services/            # ReAct store_agent, catalog_tools, cache_manager, voice_service
+│   ├── eval/                    # LLM-as-a-Judge Evaluation Flywheel (124+ test cases)
+│   ├── scripts/                 # Catalog ingestion, vector indexing & DB maintenance utilities
+│   ├── tests/                   # Unit, integration, scenario & safety pytest suites
+│   ├── Dockerfile               # Production backend container definition
+│   └── requirements.txt         # Locked Python dependencies
+├── docs/                        # Deep architectural specifications, audits & runbooks
+│   ├── ARCHITECTURE.md          # Deep technical specification & state machine reference
+│   ├── RUNBOOK.md               # Production operations & incident recovery guide
+│   └── Sales_Plan/              # Commercial pilot & B2B rollout documentation
+├── scripts/                     # Server provisioning, backup & deployment automation
+├── tests/                       # Root-level end-to-end verification suites
+├── whatsapp-gateway/            # Node.js + Baileys WhatsApp WebSocket Bridge & Debouncer
+│   ├── index.js                 # 15s sliding window debouncer, presence tracker & media relay
+│   ├── Dockerfile               # Production gateway container definition
+│   └── package.json             # Node.js dependencies
+├── Caddyfile                    # Automatic HTTPS/TLS reverse proxy configuration
+├── docker-compose.yml           # Multi-container orchestration (Backend, Gateway, Postgres, Redis, Caddy)
+└── README.md                    # Project overview & documentation
+```
+
+---
+
+## 🚀 Quick Start & Deployment
+
+### Prerequisites
+- **Docker** & **Docker Compose** (v2.20+)
+- **Python 3.12+** & **Node.js 20+** (for local non-container development)
+- **Google Gemini API Key** (`GEMINI_API_KEY`)
+- **PostgreSQL 16+** (with `pgvector` / JSONB support)
+
+### 1. Configure Environment
+```bash
+cp .env.example .env
+# Populate GEMINI_API_KEY, DATABASE_URL, OWNER_PHONE, and DOMAIN in .env
+```
+
+### 2. Launch Full Production Stack via Docker Compose
+```bash
+docker compose up -d --build
+```
+
+### 3. Run the Automated Verification & Safety Suite
+```bash
+PYTHONPATH=backend pytest backend/tests/scenarios/test_3node_real_chat.py backend/tests/safety/test_gemini_superpowers.py -v
+```
+
+### 4. Run the LLM-as-a-Judge Evaluation Flywheel
+```bash
+PYTHONPATH=backend python backend/eval/evaluate_rabta.py --limit 20
+```
 
 ---
 
 ## 📄 License & Intellectual Property
 
-Copyright © 2026 **ZeroPointIntel / Rabta AI Engineering Team**. All rights reserved.  
-This software, prompt engineering architecture, database schemas, and associated algorithms are **proprietary and confidential**. Unauthorized reproduction, reverse-engineering, commercial deployment, or redistribution is strictly prohibited.
+Copyright © 2026 **Umer Wali / Rabta AI Engineering**. All rights reserved.  
+See [LICENSE](LICENSE) for details. The public architectural showcase is available at [github.com/Zars1wali/rabta-ai-showcase](https://github.com/Zars1wali/rabta-ai-showcase).
